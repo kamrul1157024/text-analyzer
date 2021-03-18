@@ -1,1 +1,1 @@
-web: gunicorn TextAnalyzer.wsgi
+web: gunicorn TextAnalyzer.wsgi --log-file -
