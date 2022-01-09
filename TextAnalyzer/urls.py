@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from . import healthcheck
 
 urlpatterns = [
     path('admin/', admin.site.urls,name="admin"),
+    path('health/', healthcheck.getHealth, name="healthcheck"),
     path('',include("politicalPostDetection.urls"),name="political-post")
 ]

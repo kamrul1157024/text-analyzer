@@ -25,7 +25,7 @@ SECRET_KEY = 'f16qk^yivct5%z3&4t!h7z*4xd=%(ii==(3sipud(r2-lm397k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['text-analyzer', 'localhost','127.0.0.1','0.0.0.0']
 
 
 # Application definition
